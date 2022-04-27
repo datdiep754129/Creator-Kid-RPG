@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1542033965009489623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59bbd13e4eeb0a543a2c9c34acf321ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328cd29feea7c9e448f98552a0eebdd2, type: 3}
+  m_Name: UsableItem
+  m_EditorClassIdentifier: 
+  ItemName: Usage Effect
+  ItemSprite: {fileID: 21300000, guid: 2b039cf703b31f24eacbb6f62e937a81, type: 3}
+  Description: Usage Effect
+  WorldObjectPrefab: {fileID: 0}
+  UsageEffects:
+  - {fileID: -1542033965009489623}
